@@ -1,15 +1,19 @@
 {
   "name": "gitdel",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Cmdline util to delete git branches easily",
   "main": "index.js",
   "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tj/commander.js.git"
+  },
+  "author": "Gokul prabhu <gokulprabhu.droid@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "extend-shallow": "^3.0.2",
     "prompts": "^2.3.0"
