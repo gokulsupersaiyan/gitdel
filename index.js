@@ -50,7 +50,7 @@ async function execCommand(cmd, opts) {
     validate: branches => branches != null && branches.length != 0
   });
   
-  let branchesToDelete = response.branches.map((index) => localBranches[index]);
+  let branchesToDelete = (response.branches || []).map((index) => localBranches[index]);
   
   if(branchesToDelete == null || branchesToDelete.length == 0) {
     return;
