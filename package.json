@@ -1,6 +1,6 @@
 {
   "name": "gitdel",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A Cmdline util to delete git branches easily",
   "main": "index.js",
   "bin": "./index.js",
